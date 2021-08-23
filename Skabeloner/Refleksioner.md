@@ -10,9 +10,13 @@ Jeg pushede denne version til GitHub og gik i gang med at kode funktionaliten ti
 
 ## Niveau 2 - Opgave 01
 
-Da jeg blev hurtigt færdig med opgave N1_01, valgte jeg at starte på denne opgave. Den var straks mere tricky, fordi der er flere knapper og jeg må ikke hardcode antallet af knapper i Javascript. Jeg tror det har noget med Arrays og løkker at gøre, men jeg er ikke sikker på, hvordan koden skal se ud.
+Den opgave var rimelig let at loese. Function skulle have 2 parameter. Inden i functionen skulle vi definere regnereglen, som skulle anvendes. Derefter skulle der bruges 2 argumenter og resultatet blev printet ud i dom'en. Hvor resultatet skulle vaere 1.3333.
 
-Jeg fik kun én af knapperne til at skifte farve, når jeg trykkede. Jeg skal helt klart have trænet det her med, at arbejde med flere elementer af samme type, som hver især har et event.
+Ekstra opgaven var at implementer en fejlmeddelse i tilfaelde at b var 0. Det blev loest ved at lave 2 betingelser, betingelserne: 
+1. b != 0 - lave udregningen 
+2. b === 0 - print "null" ud i dom'en
+
+Det blev testet ved at aendre argumentet b til 0 og derefter andre tal. Functionaliteten fungerer.
 
 ## Niveau 1 - Opgave 01
 
