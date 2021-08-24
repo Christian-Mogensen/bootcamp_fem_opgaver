@@ -18,7 +18,7 @@ plan c. var at lave et nodelist af alle items og konverterede til et array. Dere
 
 ## Niveau 1 - Opgave 03
 
-Den stillede opgave tog lidt mere tid end jeg vil indroemme. Jeg overtaenkte den og gik ud fra at funktionen skulle fjerne elementet og vise det frem igen naar man trykkede paa et andet.
+Den stillede opgave tog lidt mere tid end jeg vil indroemme. Jeg overtaenkte den og gik ud fra at funktionen skulle fjerne elementer og vise det frem igen naar man trykkede paa et andet.
 Hvilket var kompliceret for mig at loese. 
 Opgaven laerte mig hvordan man kan tage flere elementer via querySelectorAll. Som bliver til en nodelist og den kunne konverteres til et array.
 For derefter ved hjaelp af en forEach loekke. Kunne der tilfoejes en eventlistener, ligegyldig hvilken genstand det drejede sig om.
