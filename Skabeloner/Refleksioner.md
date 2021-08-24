@@ -2,13 +2,31 @@
 
 ## Niveau 2 - Opgave 02
 
-Den var lidt svær, fordi der var flere produkter, som hver især havde en plus- og minusknap til antallet.
 
-Jeg valgte at starte med at fokusere på ét af produkterne og fik også knapperne til at ændre på antallet uden problemer.
-
-Jeg pushede denne version til GitHub og gik i gang med at kode funktionaliten til de andre produkters knapper, men det gik desværre ikke så godt. Jeg nåede ikke at finde en løsning.
 
 ## Niveau 2 - Opgave 01
+
+Pga, opgave niveau 1 opgave 3. Fandt jeg ud af at style.cssregl = "f00". Var et inline-style og derfor ville skabe problemer ift. specificity.
+
+Saa jeg begyndte at undersoege om hvorvidt man kunne hive fat i css filen, for at finde reglen>propertien og derved aendre dens attribute. Fandt ud af det var muligt at finde reglerne og specifict hvilken attributer de havde, men kunne ikke aendre dem via javascript.
+
+plan b. var at lave mit eget custom cssstylesheet via javascript og formulere en ny css class, som skulle tilfoeje og fjernes via click event.
+Det fungerede rent praktisk, men stoette ind i endnu et specificity problem, pga at den originale css regl er #buttons button. Hvilken gjorde det blev prioriteret hoejere end min class.
+
+plan c. var at lave et nodelist af alle items og konverterede til et array. Derefter en foreach loekke til arrayede, som gav alle knapperne en inline-style baggrundsfarve graa og derefter en eventlistener, som skifter farve til groen. Det virkede og loeste opgaven...
+
+
+## Niveau 1 - Opgave 03
+
+Den stillede opgave tog lidt mere tid end jeg vil indroemme. Jeg overtaenkte den og gik ud fra at funktionen skulle fjerne elementet og vise det frem igen naar man trykkede paa et andet.
+Hvilket var kompliceret for mig at loese. 
+Opgaven laerte mig hvordan man kan tage flere elementer via querySelectorAll. Som bliver til en nodelist og den kunne konverteres til et array.
+For derefter ved hjaelp af en forEach loekke. Kunne der tilfoejes en eventlistener, ligegyldig hvilken genstand det drejede sig om.
+Eventlisteneren, som var et klik event, lavede funktions kald, der gav den style.display='none'; 
+
+Done deal, men sprang de resterende ekstra opgaver over og vender tilbage til dem, hvis der er mere tid.
+
+## Niveau 1 - Opgave 02
 
 Den opgave var rimelig let at loese. Function skulle have 2 parameter. Inden i functionen skulle vi definere regnereglen, som skulle anvendes. Derefter skulle der bruges 2 argumenter og resultatet blev printet ud i dom'en. Hvor resultatet skulle vaere 1.3333.
 
